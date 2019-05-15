@@ -1,0 +1,6 @@
+"0","site_locations <- leaflet(elec20_tweet) %>%"
+"0","  addTiles() %>%"
+"0","  addCircleMarkers(lng = ~lng, lat = ~lat, popup = ~tweet_text,"
+"0","                   radius = 3, stroke = FALSE)"
+"0",""
+"0","site_locations"

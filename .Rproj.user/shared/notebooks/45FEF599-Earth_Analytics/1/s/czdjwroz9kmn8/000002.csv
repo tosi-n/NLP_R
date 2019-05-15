@@ -1,0 +1,8 @@
+"0","df_o$lat <-NA"
+"0","df_o$lng <-NA"
+"0",""
+"0","source(""https://raw.githubusercontent.com/LucasPuente/geocoding/master/geocode_helpers.R"")"
+"0","source(""https://raw.githubusercontent.com/LucasPuente/geocoding/master/modified_geocode.R"")"
+"0","geocode_apply<-function(x){"
+"0","  geocode(x, source = ""google"", output = ""all"", api_key=""AIzaSyBthydCw59313Cor8fo50EPTaydisFbEnI"")"
+"0","}"

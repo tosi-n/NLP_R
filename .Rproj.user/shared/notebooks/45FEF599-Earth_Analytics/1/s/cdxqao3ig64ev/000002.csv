@@ -1,0 +1,7 @@
+"0","# encode the URL with characters for each space."
+"0","full_url <- URLencode(full_url)"
+"0","full_url"
+"1","[1]"
+"1"," ""https://data.colorado.gov/resource/tv8u-hswn.json?county=Boulder&$where=age%20between%2020%20and%2040&$select=year,age,femalepopulation"""
+"1","
+"

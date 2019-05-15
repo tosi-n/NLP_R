@@ -1,0 +1,3 @@
+"0","google_model2<-neuralnet(RealEstate~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI, data=google_train, hidden = 4) "
+"0","plot(google_model2)"
+"0",""

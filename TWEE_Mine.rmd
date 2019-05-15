@@ -1,0 +1,330 @@
+```{r}
+#twitter API lib in R
+#install.packages("twitteR")
+library(twitteR)
+
+#credentials got from the twitter API page, at the twitter developers site.
+consumer_key <- "RkAMdcjdqcjaGTNJtFGvQLWQT"
+consumer_secret<- "hgPm0HjCzjPBi3Bs50FpM3c2latGspNZxh6156Ct5dJhFdWtqE"
+access_token <- "347721539-lRLGqB52mB9sPo2l3rUoSzvxsy5G9I4lNZXbQatx"
+access_secret <- "zsyJQ21zTF0cgn0MeKS1L6e8LLQk5Le39J1ZSKuDRWJYS"
+
+#set up authenticate
+# choose yes for auto authentication or  no otherwise
+setup_twitter_oauth(consumer_key ,consumer_secret,access_token ,access_secret)
+```
+
+
+
+### Let's make the API call and see if it runs succesfully. It sure does run successfully and will return an authentication prompt that you might want to choose yes for auto authentication. Now let us get tweets under our target @ handle and store them in a data frame(suitable data structure )
+```{r}
+tweets <- twitteR::searchTwitter("@iaboyeji",n =1000,lang ="en",since = '2018-12-01')
+
+#convert to data frame
+df <- twListToDF(tweets)
+#extract the data frame save it locally
+saveRDS(df, file="mytweets.rds")
+df2 <- readRDS("mytweets.rds")
+```
+
+### Once we have fetched the tweets and stored them ,it is time to extract the most important part of the tweets i.e the  text and clean it ahead of the analysis.
+### We use the tm library available on CRAN
+```{r}
+#time to clean our data
+#cleaning lib tm comes in action 
+# use install.packages("tm) to add this library
+library(tm)
+
+#convert data to UTF
+newdata<- iconv(df2$text, "ASCII", "UTF-8", sub="")
+
+#extract text from the data frame build your own corpus(a corpus is a collection of text files)
+mydata <- Corpus(VectorSource(newdata))
+
+# convert to lower case
+mydata <- tm_map(mydata, content_transformer(tolower))
+
+#remove ������ what would be emojis
+mydata<-tm_map(mydata, content_transformer(gsub), pattern="\\W",replace=" ")
+
+# remove URLs
+removeURL <- function(x) gsub("http[^[:space:]]*", "", x)
+mydata <- tm_map(mydata, content_transformer(removeURL)
+                 )
+# remove anything other than English letters or space
+removeNumPunct <- function(x) gsub("[^[:alpha:][:space:]]*", "", x)
+mydata <- tm_map(mydata, content_transformer(removeNumPunct))
+
+# remove stopwords
+mydata <- tm_map(mydata, removeWords, stopwords("english"))
+
+#u can create custom stop words using the code below.
+#myStopwords <- c(setdiff(stopwords('english'), c("r", "big")),"use", "see", "used", "via", "amp")
+#mydata <- tm_map(mydata, removeWords, myStopwords)
+
+# remove extra whitespace
+mydata <- tm_map(mydata, stripWhitespace)
+
+# Remove numbers
+mydata <- tm_map(mydata, removeNumbers)
+
+# Remove punctuations
+mydata <- tm_map(mydata, removePunctuation)
+
+# keep a copy for stem completion later
+mydataCopy <- mydata
+```
+
+
+
+### Our data is now clean and ready to be used for analysis.At this point you can do anything with the data. We shall build a matrix with term frequencies to help us identify the most common terms. It is called a term document matrix.
+```{r}
+#build a term document matrix
+dtm <- TermDocumentMatrix(mydata)
+m <- as.matrix(dtm)
+v <- sort(rowSums(m),decreasing=TRUE)
+d <- data.frame(word = names(v),freq=v)
+head(d, 20)
+```
+
+
+###  Let's use the word cloud to visually represent the word frequency
+```{r}
+#load the necessary libraries
+#install.packages("wordcloud")
+#install.packages("RColorBrewer")
+library(wordcloud)
+library(RColorBrewer)
+#draw the word cloud
+set.seed(1234)
+wordcloud(words = d$word, freq = d$freq, min.freq = 10,max.words=500, random.order=FALSE,scale = c(3, 0.5), colors = rainbow(50))
+```
+
+
+
+```{reval=FALSE}
+## save as temp file
+library(rmd2jupyter)
+tmp <- tempfile(fileext = ".Rmd")
+cat(rmd, file = tmp)
+
+## convert
+browseURL(gsub("\\.Rmd$", ".html", tmp))
+rmd2jupyter(tmp)
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```

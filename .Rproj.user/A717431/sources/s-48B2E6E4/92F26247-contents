@@ -1,0 +1,211 @@
+### OCR text classification using a support vector machine.
+```{r}
+#install.packages("kernlab")
+devtools::install_github("mkearney/rmd2jupyter")
+library(rmd2jupyter)
+```
+
+
+
+```{r}
+# read in data and examine structure 
+hand_letters <- read.csv("https://umich.instructure.com/files/2837863/download?download_frd=1", header = T) 
+str(hand_letters)
+```
+
+
+
+```{r}
+# divide into training (3/4) and testing (1/4) data 
+hand_letters_train <- hand_letters[1:15000, ] 
+hand_letters_test <- hand_letters[15001:20000, ]
+
+```
+
+
+
+```{r}
+# begin by training a simple linear SVM 
+library(kernlab) 
+set.seed(123) 
+hand_letter_classifier <- ksvm(letter ~ ., 
+                               data = hand_letters_train, 
+                               kernel = "vanilladot"
+                               )
+
+# look at basic information about the model 
+hand_letter_classifier
+ 
+```
+
+
+
+```{r}
+# predictions on testing dataset 
+hand_letter_predictions<- predict(hand_letter_classifier, hand_letters_test) 
+head(hand_letter_predictions)
+
+table(hand_letter_predictions, hand_letters_test$letter)
+
+```
+
+
+
+```{r}
+# look only at agreement vs. non-agreement 
+# construct a vector of TRUE/FALSE indicating correct/incorrect predictions 
+agreement <- hand_letter_predictions == hand_letters_test$letter
+
+# check if characters agree 
+table(agreement)
+
+prop.table(table(agreement))
+
+```
+
+
+
+```{r}
+hand_letter_classifier_rbf <- ksvm(letter ~ ., data = hand_letters_train, kernel = "rbfdot") 
+hand_letter_predictions_rbf <- predict(hand_letter_classifier_rbf, hand_letters_test) 
+agreement_rbf <- hand_letter_predictions_rbf == hand_letters_test$letter 
+
+table(agreement_rbf)
+
+prop.table(table(agreement_rbf))
+
+```
+
+
+
+```{r}
+## save as temp file
+
+tmp <- tempfile(fileext = ".Rmd")
+cat(rmd, file = tmp)
+
+## convert
+browseURL(gsub("\\.Rmd$", ".html", tmp))
+rmd2jupyter(tmp)
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```

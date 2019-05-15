@@ -1,0 +1,7 @@
+"0","doc_corpus<-tm_map(doc_corpus, removePunctuation) "
+"0",""
+"0","doc_corpus[[2]]"
+"1","[1]"
+"1"," ""bootcamp weeklongintensive bootcamp focused methods techniques tools services resources big healthcare biomedical data analytics using opensource statistical computing software r morning sessions 3 hrs will dedicated methods technologies applications afternoon sessions 3 hrs will groupbased hands practice team work commitment attend full week instruction morning sessions selfguided work afternoon sessions required certificates completion will issued trainees perfect attendance complete work hands intensive graduate course bootcamp will providea general overview principles concepts techniques tools services managing harmonizing aggregating preprocessing modeling analyzing interpreting large multisource incomplete incongruent heterogeneous data big data focus will expose students common challenges related handling big data present enormous opportunities power associated ability interrogate complex datasets extract useful information derive knowledge provide actionable forecasting biomedical healthcare social datasets will provide context addressing specific driving challenges students will learn modern data analytic techniques develop skills importing exporting cleaning fusing modeling visualizing analyzing synthesizing complex datasets collaborative design implementation sharing community validation highthroughput analytic workflows will emphasized throughout course"""
+"1","
+"

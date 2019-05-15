@@ -1,0 +1,7 @@
+"0","# remove urls tidyverse is failing here for some reason"
+"0","# climate_tweets %>%"
+"0","#  mutate_at(c(""stripped_text""), gsub(""http.*"","""",.))"
+"0",""
+"0","# remove http elements manually"
+"0","climate_tweets$stripped_text <- gsub(""http.*"","""",  climate_tweets$text)"
+"0","climate_tweets$stripped_text <- gsub(""https.*"","""", climate_tweets$stripped_text)"

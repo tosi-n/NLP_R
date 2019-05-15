@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551437291114.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "200312703",
+    "id" : "ED306DF8",
+    "lastKnownWriteTime" : 1557954961,
+    "last_content_update" : 1557955001885,
+    "path" : "~/Documents/Tosin_R_root/NLP1/Twitter.rmd",
+    "project_path" : "Twitter.rmd",
+    "properties" : {
+        "cursorPosition" : "25,6",
+        "scrollLine" : "15",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,3 @@
+"0","tw = twitteR::searchTwitter('@dr_ladeh', n = 1e4, since = '2014-01-08', retryOnRateLimit = 1e3)"
+"2","10000 tweets were requested but the API can only return 6"
+"0","b = twitteR::twListToDF(tw)"

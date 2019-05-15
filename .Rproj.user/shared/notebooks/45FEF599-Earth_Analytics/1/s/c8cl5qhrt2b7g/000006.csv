@@ -1,0 +1,6 @@
+"0","# turn columns to numeric and remove NA values"
+"0","pop_proj_data_df <- pop_proj_data_df %>%"
+"0"," mutate_at(c( ""age"", ""year"", ""femalepopulation""), as.numeric)"
+"2","Error in UseMethod(""tbl_vars"") : 
+  no applicable method for 'tbl_vars' applied to an object of class ""list""
+"

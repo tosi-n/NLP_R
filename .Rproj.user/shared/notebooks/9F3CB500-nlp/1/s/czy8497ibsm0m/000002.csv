@@ -1,0 +1,13 @@
+"0","doc_dtm<-TermDocumentMatrix(doc_corpus) "
+"0",""
+"0","doc_dtm"
+"1","<<TermDocumentMatrix (terms: 336, documents: 5)>>
+"
+"1","Non-/sparse entries: 542/1138
+"
+"1","Sparsity           : 68%
+"
+"1","Maximal term length: 27
+"
+"1","Weighting          : term frequency (tf)
+"

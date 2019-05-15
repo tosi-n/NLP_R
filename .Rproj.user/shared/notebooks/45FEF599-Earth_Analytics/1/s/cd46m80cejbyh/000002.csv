@@ -1,0 +1,12 @@
+"0","users %>%"
+"0","  count(location, sort = TRUE) %>%"
+"0","  mutate(location = reorder(location, n)) %>%"
+"0","  top_n(20) %>%"
+"0","  ggplot(aes(x = location, y = n)) +"
+"0","  geom_col() +"
+"0","  coord_flip() +"
+"0","      labs(x = ""Count"","
+"0","      y = ""Location"","
+"0","      title = ""Where Twitter users are from - unique locations"")"
+"2","Selecting by n
+"

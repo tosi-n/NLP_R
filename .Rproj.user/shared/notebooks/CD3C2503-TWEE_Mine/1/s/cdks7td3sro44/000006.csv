@@ -1,0 +1,8 @@
+"0","#load the necessary libraries"
+"0","#install.packages(""wordcloud"")"
+"0","#install.packages(""RColorBrewer"")"
+"0","library(wordcloud)"
+"0","library(RColorBrewer)"
+"0","#draw the word cloud"
+"0","set.seed(1234)"
+"0","wordcloud(words = d$word, freq = d$freq, min.freq = 10,max.words=500, random.order=FALSE,scale = c(3, 0.5), colors = rainbow(50))"

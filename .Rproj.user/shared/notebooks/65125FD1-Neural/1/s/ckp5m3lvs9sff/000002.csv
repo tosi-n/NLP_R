@@ -1,0 +1,4 @@
+"0","sub<-sample(nrow(google_norm), floor(nrow(google_norm)*0.75)) "
+"0","google_train<-google_norm[sub, ] "
+"0","google_test<-google_norm[-sub, ]"
+"0"," "

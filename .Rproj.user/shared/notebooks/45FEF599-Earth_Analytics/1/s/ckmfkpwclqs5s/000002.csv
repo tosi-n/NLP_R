@@ -1,0 +1,4 @@
+"0","# remove punctuation, convert to lowercase, add id for each tweet!"
+"0","climate_tweets_clean <- climate_tweets %>%"
+"0","  dplyr::select(stripped_text) %>%"
+"0","  unnest_tokens(word, stripped_text)"

@@ -1,0 +1,6 @@
+"0","mean(pred(nn_single, google_ts[,c(1:2,4:8)]) != as.factor(google_ts[,3]))"
+"1","[1]"
+"1"," 0.03181818"
+"1","
+"
+"0","plot(nn_single)"

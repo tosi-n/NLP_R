@@ -1,0 +1,149 @@
+"0","# load twitter library - the rtweet library is recommended now over twitteR"
+"0","#install.packages(""rtweet"")"
+"0","#install.packages(""tidytext"")"
+"0","library(rtweet)"
+"0","# plotting and pipes - tidyverse!"
+"0","library(ggplot2)"
+"0","library(dplyr)"
+"2","package ‘dplyr’ was built under R version 3.5.2"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","# text mining library"
+"0","library(tidytext)"
+"0","# plotting packages"
+"0","library(twitteR)"
+"2","
+Attaching package: ‘twitteR’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    id, location
+
+"
+"2","The following object is masked from ‘package:rtweet’:
+
+    lookup_statuses
+
+"
+"0","library(widyr)"
+"0","library(tm)"
+"2","Loading required package: NLP
+"
+"2","
+Attaching package: ‘NLP’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    annotate
+
+"
+"0","library(igraph)"
+"2","package ‘igraph’ was built under R version 3.5.2"
+"2","
+Attaching package: ‘igraph’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    as_data_frame, groups, union
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    decompose, spectrum
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    union
+
+"
+"0","library(ggraph)"
+"0","# json support"
+"0","library(rjson)"
+"0","library(jsonlite)"
+"2","
+Attaching package: ‘jsonlite’
+
+"
+"2","The following objects are masked from ‘package:rjson’:
+
+    fromJSON, toJSON
+
+"
+"2","The following object is masked from ‘package:rtweet’:
+
+    flatten
+
+"
+"0","library(RCurl)"
+"2","Loading required package: bitops
+"
+"0","library(data.table)"
+"2","package ‘data.table’ was built under R version 3.5.2"
+"2","data.table 1.12.0  Latest news: r-datatable.com
+"
+"2","
+Attaching package: ‘data.table’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    between, first, last
+
+"
+"0","library(leaflet)"
+"0","library(RJSONIO)"
+"2","
+Attaching package: ‘RJSONIO’
+
+"
+"2","The following objects are masked from ‘package:jsonlite’:
+
+    fromJSON, toJSON
+
+"
+"2","The following objects are masked from ‘package:rjson’:
+
+    fromJSON, toJSON
+
+"
+"0","library(gganimate)"
+"2","package ‘gganimate’ was built under R version 3.5.2"
+"0","library(lubridate)"
+"2","
+Attaching package: ‘lubridate’
+
+"
+"2","The following objects are masked from ‘package:data.table’:
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week, yday, year
+
+"
+"2","The following object is masked from ‘package:igraph’:
+
+    %--%
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    date
+
+"
+"0","library(maps)"
+"0","library(ggthemes)"
+"0","options(stringsAsFactors = FALSE)"

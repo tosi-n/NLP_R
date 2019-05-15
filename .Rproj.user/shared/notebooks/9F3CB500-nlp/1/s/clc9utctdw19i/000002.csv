@@ -1,0 +1,13 @@
+"0","library(tm)
+"
+"2","Loading required package: NLP
+"
+"2","
+Attaching package: ‘NLP’
+
+"
+"2","The following object is masked from ‘package:httr’:
+
+    content
+
+"

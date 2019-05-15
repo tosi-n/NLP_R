@@ -1,0 +1,6 @@
+"0","site_locations_base <- leaflet(elec20_tweet) %>%"
+"0","  addProviderTiles(""CartoDB.Positron"") %>%"
+"0","  addCircleMarkers(lng = ~lng, lat = ~lat, popup = ~tweet_text,"
+"0","                   radius = 3, stroke = FALSE)"
+"0",""
+"0","site_locations_base"

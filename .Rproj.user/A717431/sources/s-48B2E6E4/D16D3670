@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550716437464.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D16D3670",
+    "lastKnownWriteTime" : 1551260612,
+    "last_content_update" : 1551260612463,
+    "path" : "~/Documents/Tosin_R_root/NLP1/nlp.rmd",
+    "project_path" : "nlp.rmd",
+    "properties" : {
+        "cursorPosition" : "210,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

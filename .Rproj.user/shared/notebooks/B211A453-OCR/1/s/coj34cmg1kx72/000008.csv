@@ -1,0 +1,9 @@
+"0","## save as temp file"
+"0","tmp <- tempfile(fileext = "".Rmd"")"
+"0","cat(rmd, file = tmp)"
+"0",""
+"0","## convert"
+"0","browseURL(gsub(""\\.Rmd$"", "".html"", tmp))"
+"0","rmd2jupyter(tmp)"
+"2","file saved as /var/folders/l1/c15jndz16496c0536m685hlm0000gn/T//RtmpBuMdYY/file4a9db6674d1.ipynb
+"

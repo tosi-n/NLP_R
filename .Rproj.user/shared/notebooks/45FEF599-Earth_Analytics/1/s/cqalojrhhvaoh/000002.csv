@@ -1,0 +1,4 @@
+"0","world_basemap <- ggplot() +"
+"0","  borders(""world"", colour = ""gray85"", fill = ""gray80"")"
+"0",""
+"0","world_basemap"

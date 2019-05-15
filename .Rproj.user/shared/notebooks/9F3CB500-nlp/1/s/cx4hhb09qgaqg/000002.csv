@@ -1,0 +1,8 @@
+"0","docs<-c(doc1, doc2, doc3, doc4, doc5) "
+"0","class(docs) "
+"1","[1]"
+"1"," ""character"""
+"1","
+"
+"0","## [1] ""character"""
+"0",""

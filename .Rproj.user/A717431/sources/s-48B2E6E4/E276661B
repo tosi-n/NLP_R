@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551458297875.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3791110465",
+    "id" : "E276661B",
+    "lastKnownWriteTime" : 1554728148,
+    "last_content_update" : 1557954548693,
+    "path" : "~/Documents/Tosin_R_root/NLP1/Earth_Analytics.rmd",
+    "project_path" : "Earth_Analytics.rmd",
+    "properties" : {
+        "cursorPosition" : "53,71",
+        "scrollLine" : "32",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

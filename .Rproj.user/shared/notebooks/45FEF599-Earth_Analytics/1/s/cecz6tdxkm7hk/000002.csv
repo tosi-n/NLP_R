@@ -1,0 +1,10 @@
+"0","# create file path"
+"0","json_file <- ""/Users/lade/Documents/Tosin_R_root/boulder_flood_geolocated_tweets.json"""
+"0","# import json file line by line to avoid syntax errors"
+"0","# this takes a few seconds"
+"0","boulder_flood_tweets <- stream_in(file(json_file))"
+"2","opening fileconnectionoldClass input connection.
+"
+"2","cannot open file '/Users/lade/Documents/Tosin_R_root/boulder_flood_geolocated_tweets.json': No such file or directory"
+"2","Error in open.connection(con, ""rb"") : cannot open the connection
+"

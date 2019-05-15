@@ -1,0 +1,7 @@
+"0","tweets <- twitteR::searchTwitter(""@iaboyeji"",n =1000,lang =""en"",since = '2018-12-01')"
+"2","1000 tweets were requested but the API can only return 365"
+"0","#convert to data frame"
+"0","df <- twListToDF(tweets)"
+"0","#extract the data frame save it locally"
+"0","saveRDS(df, file=""mytweets.rds"")"
+"0","df2 <- readRDS(""mytweets.rds"")"

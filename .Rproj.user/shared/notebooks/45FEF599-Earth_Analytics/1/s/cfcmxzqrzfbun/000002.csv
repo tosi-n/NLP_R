@@ -1,0 +1,6 @@
+"0","# create basemap of the globe"
+"0","world_basemap <- ggplot() +"
+"0","  borders(""world"", colour = ""gray85"", fill = ""gray80"") +"
+"0","  theme_map()"
+"0",""
+"0","world_basemap"

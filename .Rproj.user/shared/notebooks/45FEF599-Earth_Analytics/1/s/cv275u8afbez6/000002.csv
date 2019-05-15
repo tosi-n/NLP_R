@@ -1,0 +1,4 @@
+"0","# load list of stop words - from the tidytext package"
+"0","data(""stop_words"")"
+"0","# view first 6 words"
+"0","head(stop_words)"

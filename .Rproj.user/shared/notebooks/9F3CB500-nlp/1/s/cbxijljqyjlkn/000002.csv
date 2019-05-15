@@ -1,0 +1,1 @@
+"0","doc_corpus<-tm_map(doc_corpus, PlainTextDocument)"

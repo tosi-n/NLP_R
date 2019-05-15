@@ -1,0 +1,2 @@
+"0","tw = twitteR::searchTwitter('@realDonaldTrump', n = 1e4, since = '2019-01-08', retryOnRateLimit = 1e3)"
+"0","b = twitteR::twListToDF(tw)"

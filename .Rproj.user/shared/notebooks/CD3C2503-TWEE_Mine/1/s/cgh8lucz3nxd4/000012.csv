@@ -1,0 +1,10 @@
+"0","## save as temp file
+library(rmd2jupyter)
+tmp <- tempfile(fileext = "".Rmd"")
+cat(rmd, file = tmp)
+
+## convert
+browseURL(gsub(""\\.Rmd$"", "".html"", tmp))
+rmd2jupyter(tmp)"
+"2","/bin/sh: reval=FALSE: command not found
+"

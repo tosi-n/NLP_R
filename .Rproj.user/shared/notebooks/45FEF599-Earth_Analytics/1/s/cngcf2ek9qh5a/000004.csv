@@ -1,0 +1,6 @@
+"0","world_basemap +"
+"0","  geom_point(data = elec20_tweet, aes(x = lng, y = lat),"
+"0","             colour = 'purple', alpha = .5) +"
+"0","  scale_size_continuous(range = c(1, 8),"
+"0","                        breaks = c(250, 500, 750, 1000)) +"
+"0","  labs(title = ""Tweet Locations For USA Election 2020 Thread Explosion"")"

@@ -1,0 +1,5 @@
+"0","# remove na values"
+"0","elec20_locations <- elec20_tweet %>%"
+"0","  na.omit()"
+"0",""
+"0","head(elec20_locations)"

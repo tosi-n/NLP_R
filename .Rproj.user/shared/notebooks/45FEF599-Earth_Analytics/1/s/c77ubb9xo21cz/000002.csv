@@ -1,0 +1,2201 @@
+"0","for (user in df_o$screen_name[1:200]){  "
+"0","  print(c(""finding the profile for:"",user))"
+"0","  Sys.sleep(3) #build in a sleeper to prevent Twitter API rate limit error. "
+"0","  try(df_o[df_o$screen_name==user,]$user_location_on_twitter_bio <- getUser(user)$location)"
+"0","  try(df_o[df_o$screen_name==user,]$profile_image <- getUser(user)$profileImageUrl)"
+"0","}"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," ""LawrenceEbi""             "
+"1","
+"
+"2","provided 90 variables to replace 89 variables"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"1","[1]"
+"1"," ""finding the profile for:"""
+"1"," NA                        "
+"1","
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, df_o$screen_name == user, , value = structure(list( : 
+  missing values are not allowed in subscripted assignments of data frames
+"

@@ -1,0 +1,13 @@
+"0","wiki_url <- read_html(""http://wiki.stat.ucla.edu/socr/index.php/SOCR_Data_2011_US_JobsRanking"")"
+"0","html_nodes(wiki_url, ""#content"")"
+"1","{xml_nodeset ("
+"1",""
+"1","1"
+"1",""
+"1",")}
+"
+"1","[1] <div id=""content"">\n\t\t<a name=""top"" id=""top""></a>\n\t\t\t\t<h1 id=""firstHeading"" class=""firstHeading ..."
+"1","
+"
+"0","job <- html_table(html_nodes(wiki_url, ""table"")[[1]]) "
+"0","head(job)"

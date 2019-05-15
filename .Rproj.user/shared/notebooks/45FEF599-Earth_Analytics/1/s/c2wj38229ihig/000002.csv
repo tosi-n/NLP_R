@@ -1,0 +1,13 @@
+"0","## stream london tweets for a week (60 secs x 60 mins * 24 hours *  7 days)"
+"0","stream_tweets("
+"0","  c(""ewarren,BernieSanders, realDonaldTrump, BetoORourke""),"
+"0","  timeout = 60 * 10,"
+"0","  file_name = ""elec20.json"","
+"0","  parse = FALSE"
+"0",")"
+"2","Streaming tweets for 600 seconds...
+"
+"2","Finished streaming tweets!
+"
+"2","streaming data saved as elec20.json
+"

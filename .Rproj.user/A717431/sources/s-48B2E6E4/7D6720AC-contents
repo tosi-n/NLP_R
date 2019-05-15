@@ -1,0 +1,230 @@
+```{r}
+google<-read.csv("CaseStudy13_GoogleTrends_Markets_Data.csv", 
+                 stringsAsFactors = F)
+google<-google[, -c(1, 2)] 
+str(google)
+
+```
+
+
+
+```{r}
+normalize <- function(x) { 
+  return((x - min(x)) / (max(x) - min(x))) 
+  } 
+
+google_norm<-as.data.frame(lapply(google, normalize)) 
+summary(google_norm$RealEstate)
+
+
+```
+
+
+
+```{r}
+sub<-sample(nrow(google_norm), floor(nrow(google_norm)*0.75)) # to split dataset 
+google_train<-google_norm[sub, ] 
+google_test<-google_norm[-sub, ]
+ 
+```
+
+
+
+```{r}
+#install.packages("neuralnet") 
+library(neuralnet) 
+google_model<-neuralnet(RealEstate~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI,data=google_train) 
+plot(google_model)
+
+```
+
+
+
+```{r}
+google_pred<-compute(google_model, google_test[, c(1:2, 4:8)]) 
+pred_results<-google_pred$net.result 
+cor(pred_results, google_test$RealEstate)
+
+```
+
+
+
+```{r}
+google_model2<-neuralnet(RealEstate~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI, data=google_train, hidden = 4) 
+plot(google_model2)
+
+```
+
+
+
+```{r}
+google_pred2<-compute(google_model2, google_test[, c(1:2, 4:8)]) 
+pred_results2<-google_pred2$net.result 
+cor(pred_results2, google_test$RealEstate)
+
+```
+
+
+
+```{r}
+google_model2<-neuralnet(RealEstate~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI, data=google_train, hidden = c(4,3,3))
+plot(google_model2)
+google_pred2<-compute(google_model2, google_test[, c(1:2, 4:8)]) 
+pred_results2<-google_pred2$net.result 
+cor(pred_results2, google_test$RealEstate)
+
+```
+
+
+
+```{r}
+google_class = google_norm 
+id1 = which(google_class$RealEstate>quantile(google_class$RealEstate,0.75)) 
+id2 = which(google_class$RealEstate<quantile(google_class$RealEstate,0.25)) 
+id3 = setdiff(1:nrow(google_class),union(id1,id2)) 
+google_class$RealEstate[id1]=0 
+google_class$RealEstate[id2]=1 
+google_class$RealEstate[id3]=2 
+summary(as.factor(google_class$RealEstate))
+
+```
+
+
+
+```{r}
+set.seed(2017) 
+train = sample(1:nrow(google_class),0.7*nrow(google_class)) 
+google_tr = google_class[train,] 
+google_ts = google_class[-train,] 
+train_x = google_tr[,c(1:2,4:8)] 
+train_y = google_tr[,3] 
+colnames(train_x)
+
+
+test_x = google_ts[,c(1:2,4:8)] 
+test_y = google_ts[3] 
+train_y_ind = model.matrix(~factor(train_y)-1) 
+colnames(train_y_ind) = c("High","Median","Low") 
+train_i = cbind(train_x, train_y_ind)
+
+```
+
+
+
+```{r}
+nn_single = neuralnet(High+Median+Low~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI, 
+                      data = train_i, 
+                      hidden=4, 
+                      linear.output=FALSE, 
+                      lifesign='full', 
+                      lifesign.step=2000
+                      )
+
+```
+
+
+
+```{r}
+pred = function(nn, dat) { 
+  # compute uses the trained neural net (nn=nn_single), and 
+  # new testing data (dat=google_ts) to generate predictions (y_hat) 
+  # compute returns a list containing: 
+  # (1) neurons: a list of the neurons' output for each layer of the neural network, and 
+  # (2) net.result: a matrix containing the overall result of the neural network. 
+  yhat = compute(nn, dat)$net.result
+  # find the maximum in each row (1) in the net.result matrix 
+  # to determine the first occurrence of a specific element in each row (1) 
+  # we can use the apply function with which.max 
+  yhat = apply(yhat, 1, which.max)-1 
+  return(yhat) 
+  } 
+  mean(pred(nn_single, google_ts[,c(1:2,4:8)]) != as.factor(google_ts[,3]))
+
+```
+
+
+
+```{r}
+plot(nn_single)
+
+```
+
+
+
+```{r}
+nn_single = neuralnet(High+Median+Low~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI, 
+                      data = train_i, 
+                      hidden=c(4,5), 
+                      linear.output=FALSE, 
+                      lifesign='full', 
+                      lifesign.step=2000
+                      )
+```
+
+
+
+```{r}
+mean(pred(nn_single, google_ts[,c(1:2,4:8)]) != as.factor(google_ts[,3]))
+plot(nn_single)
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+```{r}
+
+```
+

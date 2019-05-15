@@ -1,0 +1,7 @@
+"0","geocode_results <- sapply(elec20_withgeo$location, geocode_apply, simplify = F)
+
+colnames(elec20_withgeo)
+
+elec20_withgeo$lat"
+"2","/bin/sh: reval=FALSE: command not found
+"

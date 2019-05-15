@@ -1,0 +1,3 @@
+"0","jobCorpus<-VCorpus(VectorSource(wiki_url[, 10]))"
+"2","Error in inherits(x, ""Source"") : incorrect number of dimensions
+"

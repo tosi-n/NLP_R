@@ -1,0 +1,9 @@
+"0","# what users are tweeting with #rstats"
+"0","users <- search_users(""#rstats"","
+"0","                      n = 500)"
+"2","Searching for users...
+"
+"2","Finished collecting users!
+"
+"0","# just view the first 2 users - the data frame is large!"
+"0","head(users, n = 2)"

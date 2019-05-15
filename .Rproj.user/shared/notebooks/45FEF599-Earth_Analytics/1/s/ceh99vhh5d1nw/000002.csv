@@ -1,0 +1,7 @@
+"0","#Get the location of @UMassPoll. To run the following code, you must first set up Twitter API. "
+"0","user<-getUser(""Oloni"")"
+"0","user$location"
+"1","[1]"
+"1"," ""London"""
+"1","
+"

@@ -1,0 +1,4 @@
+"0","# divide into training (3/4) and testing (1/4) data "
+"0","hand_letters_train <- hand_letters[1:15000, ] "
+"0","hand_letters_test <- hand_letters[15001:20000, ]"
+"0",""

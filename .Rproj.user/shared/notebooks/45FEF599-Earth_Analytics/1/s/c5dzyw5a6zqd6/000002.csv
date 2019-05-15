@@ -1,0 +1,5 @@
+"0","# Base URL path"
+"0","base_url = ""https://data.colorado.gov/resource/tv8u-hswn.json?"""
+"0","full_url = paste0(base_url, ""county=Boulder"","
+"0","             ""&$where=age between 20 and 40"","
+"0","             ""&$select=year,age,femalepopulation"")"

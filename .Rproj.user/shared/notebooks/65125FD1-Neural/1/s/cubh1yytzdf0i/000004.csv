@@ -1,0 +1,32 @@
+"0","nn_single = neuralnet(High+Median+Low~Unemployment+Rental+Mortgage+Jobs+Investing+DJI_Index+StdDJI, "
+"0","                      data = train_i, "
+"0","                      hidden=c(4,5), "
+"0","                      linear.output=FALSE, "
+"0","                      lifesign='full', "
+"0","                      lifesign.step=2000"
+"0","                      )"
+"2","hidden: 4, 5    thresh: 0.01    rep: 1/1    steps: "
+"2","   2000	min thresh: 0.307328436966764
+                                                   "
+"2","   4000	min thresh: 0.28755170334673
+                                                   "
+"2","   6000	min thresh: 0.138372088741924
+                                                   "
+"2","   8000	min thresh: 0.111544057524233
+                                                   "
+"2","  10000	min thresh: 0.0923395819170446
+                                                   "
+"2","  12000	min thresh: 0.0766173347043233
+                                                   "
+"2","  14000	min thresh: 0.0576322350895737
+                                                   "
+"2","  16000	min thresh: 0.0341798942632809
+                                                   "
+"2","  18000	min thresh: 0.0147387284349868
+                                                   "
+"2","  20000	min thresh: 0.0110164665293492
+                                                   "
+"2","  20741"
+"2","	error: 7.00627"
+"2","	time: 8.16 secs
+"
