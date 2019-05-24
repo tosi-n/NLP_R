@@ -1,7 +1,7 @@
 
 
 # Note if packages get masked, install conflicting or use packagename::function()
-```{r}
+
 # load twitter library - the rtweet library is recommended now over twitteR
 #install.packages("rtweet")
 #install.packages("tidytext")
@@ -29,7 +29,7 @@ library(lubridate)
 library(maps)
 library(ggthemes)
 options(stringsAsFactors = FALSE)
-```
+
 
 
 # pass a suite of keys to the API and create a token that authenticates access to tweets! Note that the authentication process below will open a window in your browser.
